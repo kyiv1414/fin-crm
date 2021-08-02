@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 
-Route::get('employee/{id}', 'EmployeeController@show');
+// Route::get('employee/{id}', 'EmployeeController@show');
 
 Route::get('employee/salary/{employee_id}', 'EmployeeController@getCurrentMonthSalary');
 

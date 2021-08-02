@@ -12,13 +12,15 @@ Easy seed db with tinker commands:
 ***
 available routes:
 
-api/incomes
+1) api/incomes
 
-api/expenses
+2) api/expenses
 
-api/profits
+3) api/profits
 
-* for all routes required "from" and "to" parameters
+4) employee/salary/{employee_id}
+
+* for 1), 2), 3) required "from" and "to" parameters
 
 TO DO
  - add "from" and "to' request validation
